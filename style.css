@@ -22,6 +22,12 @@ ul {
     color: #F9FAF8;
 }
 
+.header-left {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
 .hero-text,
 .header-right {
     font-size: 18px;
@@ -33,13 +39,17 @@ ul {
     background-color: #3882F6;
 }
 
+.container-one-left {
+    color: white;    
+}
+
 .container-two-title {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
 }
 
-.container-three {
+.inner-container-three {
     background-color: #E5E7EB;
 }
 
@@ -47,4 +57,8 @@ ul {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+.footer {
+    color: #F9FAF8;
 }
