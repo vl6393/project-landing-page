@@ -22,7 +22,6 @@ body {
 .container-three,
 .container-four {
     display: flex;
-    align-items: center;
     flex: 1;
 }
 
@@ -46,7 +45,6 @@ body {
     justify-content: space-between;
     align-content: center;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .header-left {
@@ -68,6 +66,7 @@ ul {
 
 /* CONTAINER-ONE*/
 .container-one {
+    padding-top: 40px;
     padding-bottom: 40px;
     align-items: stretch;
     gap: 30px;
@@ -114,10 +113,11 @@ ul {
 }
 
 .container-two-title {
+    text-align: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .container-two-boxes {
@@ -145,12 +145,41 @@ ul {
 /* CONTAINER THREE*/
 .container-three {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .container-three-text-one {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+.container-three-text-two {
+    align-self: flex-end;
+    font-weight: bolder;
+}
+
+/* CONTAINER FOUR*/
+.container-four {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.inner-container-four{
+    padding: 30px 80px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.container-four-text-one {
+    font-weight: bolder;
 }
 
 /* FOOTER*/
