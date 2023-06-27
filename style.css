@@ -6,7 +6,7 @@ body {
     font-family: 'Roboto';
 }
 
-
+/* PADDING OF THE PAGE*/
 .header,
 .container-one,
 .container-two,
@@ -16,12 +16,31 @@ body {
     padding: 0 200px;
 }
 
+/* FLEX OF CONTAINERS ONE TO FOUR */
+.container-one,
+.container-two,
+.container-three,
+.container-four {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+/* GENERAL COLORS */
 .header,
 .container-one,
 .footer {
     background-color: #1F2937;
 }
 
+.container-one-button,
+.container-four-button,
+.inner-container-four {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+/* HEADER */
 .header {
     display: flex;
     justify-content: space-between;
@@ -46,18 +65,12 @@ ul {
     gap: 15px;
 }
 
-.container-one,
-.container-two,
-.container-three,
-.container-four {
-    display: flex;
-    align-items: center;
-    flex: 1;
-}
 
+/* CONTAINER-ONE*/
 .container-one {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    align-items: stretch;
+    gap: 30px;
 }
 
 
@@ -70,6 +83,10 @@ ul {
 
 .container-one-left {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .hero-text {
@@ -80,25 +97,52 @@ ul {
 .container-one-right {
     background-color: gray;
     color: #F9FAF8;
-    display: flex;
     flex: 1;
-}
-
-.container-one-button,
-.container-four-button,
-.inner-container-four {
-    background-color: #3882F6;
-    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
+/* CONTAINER TWO*/
+.container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 .container-two-title {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding-bottom: 40px;
 }
 
+.container-two-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100px;
+}
+
+.rectangle {
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+/* CONTAINER THREE*/
 .container-three {
     background-color: #E5E7EB;
 }
@@ -109,6 +153,7 @@ ul {
     color: #1F2937;
 }
 
+/* FOOTER*/
 .footer {
     color: #F9FAF8;
     display: flex;
