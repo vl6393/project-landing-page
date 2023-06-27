@@ -3,10 +3,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
-/* PADDING OF THE PAGE*/
+/* LATERAL PADDING OF THE PAGE*/
 .header,
 .container-one,
 .container-two,
@@ -154,6 +154,7 @@ ul {
 .container-three-text-one {
     font-size: 36px;
     font-style: italic;
+    font-weight: 300;
     color: #1F2937;
 }
 
@@ -175,7 +176,6 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 50px;
-
 }
 
 .container-four-text-one {
