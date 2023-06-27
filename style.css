@@ -7,6 +7,14 @@ body {
 }
 
 
+.header,
+.container-one,
+.container-two,
+.container-three,
+.container-four,
+.footer {
+    padding: 0 200px;
+}
 
 .header,
 .container-one,
@@ -17,6 +25,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header-left {
@@ -35,29 +46,52 @@ ul {
     gap: 15px;
 }
 
+.container-one,
+.container-two,
+.container-three,
+.container-four {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.container-one {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.container-one-left,
 .hero-title {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
+.container-one-left {
+    flex: 1;
+}
 
-.hero-text,
-.header-right {
+.hero-text {
     font-size: 18px;
     color: #E5E7EB;
 }
 
+.container-one-right {
+    background-color: gray;
+    color: #F9FAF8;
+    display: flex;
+    flex: 1;
+}
+
 .container-one-button,
 .container-four-button,
-.container-four {
+.inner-container-four {
     background-color: #3882F6;
     color: #F9FAF8;
 }
 
-.container-one-left {
-    color: white;    
-}
+
 
 .container-two-title {
     font-size: 36px;
@@ -65,7 +99,7 @@ ul {
     color: #1F2937;
 }
 
-.inner-container-three {
+.container-three {
     background-color: #E5E7EB;
 }
 
@@ -77,4 +111,9 @@ ul {
 
 .footer {
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
