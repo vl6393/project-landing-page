@@ -91,6 +91,7 @@ ul {
 .hero-text {
     font-size: 18px;
     color: #E5E7EB;
+    padding-bottom: 10px;
 }
 
 .container-one-right {
@@ -100,6 +101,13 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container-one-button {
+    border-radius: 7px;
+    padding: 5px 20px;
+    border: #3882F6;
+    font-weight: bolder;
 }
 
 
@@ -179,6 +187,15 @@ ul {
 }
 
 .container-four-text-one {
+    font-weight: bolder;
+}
+
+.container-four-button {
+    border-radius: 7px;
+    padding: 5px 20px;
+    border: solid;
+    border-width: 2px;
+    border-color:#F9FAF8;
     font-weight: bolder;
 }
 
