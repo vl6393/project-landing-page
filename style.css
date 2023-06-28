@@ -66,14 +66,13 @@ ul {
 
 /* CONTAINER-ONE*/
 .container-one {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     align-items: stretch;
     gap: 30px;
 }
 
 
-.container-one-left,
 .hero-title {
     font-size: 48px;
     font-weight: bolder;
@@ -104,7 +103,7 @@ ul {
 }
 
 .container-one-button {
-    border-radius: 7px;
+    border-radius: 5px;
     padding: 5px 20px;
     border: #3882F6;
     font-weight: bolder;
@@ -148,6 +147,7 @@ ul {
     border: solid;
     border-color: #3882F6;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 /* CONTAINER THREE*/
